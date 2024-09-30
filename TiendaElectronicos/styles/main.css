@@ -1,0 +1,35 @@
+/* Reset Margenes y Padding */
+html {
+    box-sizing: border-box;
+ 
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+  
+  }
+
+  /* Estilos Generales */
+  
+
+ /* Header-Nav estilos */
+
+  .titulo-sitio{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+  }
+
+  .container{
+    max-width: 1100px;
+    margin: 0 auto;
+   
+  }
+
+  .nav-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
